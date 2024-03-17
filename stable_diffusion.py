@@ -3,8 +3,6 @@
 from huggingface_hub import notebook_login
 notebook_login()
 
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
 import torch
 assert torch.cuda.is_available()
 !nvidia-smi
