@@ -1,7 +1,3 @@
-!pip install --upgrade diffusers transformers -q
-
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
 !pip install diffusers transformers tokenizers
 
 from huggingface_hub import notebook_login
